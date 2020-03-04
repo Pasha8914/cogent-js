@@ -1,5 +1,5 @@
 {
-  "name": "ata-query-builder",
+  "name": "ata-query",
   "version": "0.2.4",
   "description": "A simple and elegant way to build urls for your REST API",
   "main": "dist/index.js",
