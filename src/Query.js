@@ -1,7 +1,7 @@
 import { methods } from "./Methods";
 import { config } from "./config";
 
-export class Query {
+class Query {
   constructor({ baseURL, path, customConfig, params }) {
     this.defaultRow = `${baseURL + path}?`;
 
@@ -18,3 +18,5 @@ export class Query {
     return `${this.defaultRow}?${this.query.join("&")}`;
   }
 }
+
+export { Query };
